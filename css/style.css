@@ -1,0 +1,41 @@
+.taskWrapper {
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskHeading {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.taskDescription {
+  font-size: 16px;
+}
+.button-clear {
+  background-color: orange;
+  border-color: orange;
+}
+.button-clear:hover {
+  background-color: rgba(255, 0, 0, 0.609);
+  border-color: rgba(255, 0, 0, 0.609);
+}
+.delete-item {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 5px 10px;
+}
+label {
+  margin-top: 20px;
+}
+.clear-input {
+  background-color: red;
+  border: 2px solid red;
+}
